@@ -1,0 +1,11 @@
+ 
+ .link {
+     color: $dark-grey;
+     text-decoration: none;
+     display: flex;
+     justify-content: center;
+
+     &:hover {
+         text-decoration: underline;
+     }
+ }
