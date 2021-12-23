@@ -28,9 +28,10 @@
     cursor: pointer;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    // justify-content: center;
+    margin: 0 auto;
     margin-top: 30px;
-    width: 100%;
+    width: 30%;
 
     transition: color .3s ease;
 
@@ -50,11 +51,14 @@
     border-radius: 4px;
     color: $dark-grey;
     display: flex;
+    height: 50px;
+    justify-content: space-between;
     margin-bottom: 10px;
     overflow: hidden;
 }
 
 .journal__entry-picture {
+    background-position: center;
     height: 75px;
     width: 75px;
 }

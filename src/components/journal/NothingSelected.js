@@ -6,10 +6,10 @@ export const NothingSelected = () => {
             <p>
                 Select something
                 <br />
-                or create an entry!
+                or create a new note!
             </p>
 
-            <icon className="far fa-star fa-4x mt-5"></icon>
+            <icon className="fas fa-sticky-note fa-4x mt-5"></icon>
         </div>
     )
 }

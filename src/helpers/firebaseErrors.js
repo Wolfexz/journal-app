@@ -16,6 +16,6 @@ export const firebaseErrors = (e) => {
             return Swal.fire('Error', 'Email already in use', 'error');
     
         default:
-            return Swal.fire('Error', 'An error has ocurred', 'error');
+            return Swal.fire('Error', e['code'], 'error');
     }
 }
