@@ -38,7 +38,7 @@ export const JournalEntry = ({ id, date, title, body, url }) => {
                     { limitText(title, 22) }
                 </p>
                 <p className="journal__entry-content limited">
-                    { limitText(body, 35) }
+                    { limitText(body, 29) }
                 </p>
             </div>
 

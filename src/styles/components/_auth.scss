@@ -3,6 +3,7 @@
     align-items: center;
     background-color: $primary;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     margin: 0px;
     height: 100vh;
@@ -56,4 +57,18 @@
     justify-content: center;
     margin-bottom: 20px;
     padding: 5px;
+}
+
+.auth__footer {
+    // background-color: rgb(31, 30, 30);
+    background-color: darken($color: $primary, $amount: 30);
+    bottom:0;
+    color: white;
+    display: flex;
+    font-size: 13px;
+    justify-content: center; 
+    padding: 5px 0 5px 0;
+    position:fixed;
+    z-index:999999;
+    width: 100%;
 }

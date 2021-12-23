@@ -23,6 +23,8 @@ export const AuthRouter = () => {
                     <Redirect to="/auth/login" />
                 </Switch>
             </div>
+
+            <div className="auth__footer">Christian Carrera © 2021. React: De cero a experto - Fernando Herrera</div>
         </div>
     )
 }
